@@ -9,19 +9,19 @@ DAO(Decentralized Autonomous Organizations，去中心化自治组织)，任何�
 ## 目录
 
 ```
-guide				//向导合约模板，保存全局数据，平台唯一
-lib					//公共库文件
+guide			//向导合约模板，保存全局数据，平台唯一
+lib			//公共库文件
 ├──assets.hpp		//资产，提供对合约账号Token操作的函数
 ├──auths.hpp		//权限，准入权限的控制
 ├──consts.hpp		//常量，全局常量
 ├──safemath.hpp		//计算，无符号整形数字运算
 ├──structs.hpp		//结构表
-├──trxs.hpp			//交易执行
+├──trxs.hpp		//交易执行
 organization		//组织合约模板，组织内唯一
-plugins				//插件
-├──mining			//挖矿合约模板
-├──token			//代币合约模板
-├──voting			//投票合约模板
+plugins			//插件
+├──mining		//挖矿合约模板
+├──token		//代币合约模板
+├──voting		//投票合约模板
 ```
 
 ## 安装部署
